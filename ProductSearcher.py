@@ -13,3 +13,4 @@ class ProductSearcher(object):
                                    SearchIndex='All')
         for product in products:
             print('product_title={}'.format(product.title))
+            print('price={}'.format(product.price_and_currency))
